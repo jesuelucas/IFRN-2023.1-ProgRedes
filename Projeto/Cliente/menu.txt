@@ -1,1 +1,11 @@
-
+/q;Sair do Cliente
+/l;Listar IP dos clientes conectados ao servidor
+/m:ip_destino:porta:mensagem;Envia uma mensagem para um determinado cliente conectado
+/b:mensagem;Envia mensagem para todos os clientes conectados
+/h;Historico de mensagens enviadas pelo cliente
+/f;listar os arquivos (nome e tamanho) contidos na pasta /server_files (do servidor)
+/d:nome_arquivo; Faz o download do arquivo para a pasta /download do cliente
+/u:nome_arquivo; Faz o upload de um arquivo para a pasta /server_files do servidor
+/w:url; Faz o download do arquivo fornecido na URL para a pasta /server_files do servidor
+/rss:palavra_chave; Lista as 10 notícias mais recentes que contenham a PALAVRA_CHAVE
+/?;lista essas opções
